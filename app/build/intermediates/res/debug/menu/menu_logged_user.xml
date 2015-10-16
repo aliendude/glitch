@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pedro.glitch.LoggedUserActivity">
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/stream"
+        android:title="@string/stream"
+        app:showAsAction="always"  />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+</menu>
+<!-- From: file:/Users/macbookpro/Desktop/glitch/app/src/main/res/menu/menu_logged_user.xml -->

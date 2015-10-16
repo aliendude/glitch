@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/macbookpro/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.19.0/cdca49ad0977c040f603478aa2e16b2775c8fec6/google-http-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/google-http-client-1.19.0-c31bfa287e69b07dc6ed6aba141e32dc8ff8a93c.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-f725c2c79bb45a502eca79f0a0e5139d14549e12.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/backend1/build/libs/backend1-android-endpoints.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e0c3494cbda97ffa63f5df99a2844e9d53e6e78d">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/backend1-android-endpoints-cd039582d22ea632b3a8cd149ba5e5d2638e1024.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/.gradle/caches/modules-2/files-2.1/com.github.nkzawa/engine.io-client/0.3.1/3ca9d0d53a27ecb88538ed874be417cfa827db5d/engine.io-client-0.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3ca9d0d53a27ecb88538ed874be417cfa827db5d">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/engine.io-client-0.3.1-2493da066394585cd65e88236ca35f99b00267fe.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-347fd6b31c1a2d79c713365e0bfc3e60e63ac5e1.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-946079c61ce1922e383974361e7dd102d95c9bbb.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-53c54d58ea95ed1eeb7decdb087f714a7d640120.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/.gradle/caches/modules-2/files-2.1/org.java-websocket/Java-WebSocket/1.3.0/db2658f013fb163de4a99274c2eb9e17efe535d2/Java-WebSocket-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="db2658f013fb163de4a99274c2eb9e17efe535d2">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/Java-WebSocket-1.3.0-0163e78e70d8849501a4c17a38d9e4f78cad6f31.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-fd3f1a36b8abe181ccecbd8394788e3165872533.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-b6b9bf3777758fc93a39ff971195454295a84941.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-f20ef7f7df8958167d100b44295347194edab853.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.19.0/81dbf9795d387d5e80e55346582d5f2fb81a42eb/google-http-client-jackson2-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.19.0-2bfc3609ecbbaa548efa2f754a47e74473a2fdbe.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-d42ea25a66ccfc00a4b269810f9478da719edc18.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-5546ecd42ba6626e8590cd8583d2c59f3e4ef6ae.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/.gradle/caches/modules-2/files-2.1/com.github.nkzawa/socket.io-client/0.3.0/8dfd7cf8d1124acb027b3ffd53eafcc518af3ba9/socket.io-client-0.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8dfd7cf8d1124acb027b3ffd53eafcc518af3ba9">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/socket.io-client-0.3.0-34cc54e9e436f7b7f651fc8fe99d6890a96c5376.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-8329eb735b71178f643cb6a5c4bbfcfccffa332b.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-95e85d0563434eeae8ac9e15c4b8c863bfb420f8.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-eaab8ebab9a9dbe8faf89f6271511e489179c202.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-fd884e209387b8b9ccaca3f8202f03eaa93186cd.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-4fad23dfc22a2cb9c334db9bc44bf79cb6d1a330.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-ffaf875a4e14dd945c6fcd2eec68b9eff9070dc5.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-145fac57a05972f4086e950726ad6801833e9502.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-5cf3e58a610ecde1a016eb81b969717ea45e6966.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-31e53aef9fe73d3c1406d4950ed76b166f511008.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3-d71e575c0d3e979f61da3cdab11040d4a857f85a.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-77a0306c3616a64b6327b9c42f480feb37b80913.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-40a35fed75742cb7bdae9caa96de5d5460594ae9.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-0996cf4ab20933f29cee310466da341f984840e3.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-c66b3e568ca9571576792b258c5bd5c0b0af89d7.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.19.0/d473a8962e14a707a3716637e4898bb2dd9643f2/google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.19.0-2eed5b2ff5ed200f91309844de6631604eceb2a0.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f7188fc9a524a8f965b5aeab74879036f0431080">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-50e26442c98e48cdd5d400f664a8584181cafb2f.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-0d89a6c5d3c4198c42dec297840e45f1203fae76.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-b3814a5b19d6df96ddc13d854917f81eaec107cf.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/Desktop/glitch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/classes-06f07593850f14acbe993af27e32e7233e8b2888.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.19.0/ba2aafb867f6af469f936ae76426cf0a280094bd/google-api-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba2aafb867f6af469f936ae76426cf0a280094bd">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/google-api-client-android-1.19.0-9e21c62140cdb48a4a20306900b8c64f1621c615.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.19.0/6a21277d9bebe267b7ddee028b241eebc756c040/google-api-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6a21277d9bebe267b7ddee028b241eebc756c040">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/google-api-client-1.19.0-65e190ab1e83fa9dbb44f18c51639dad9cd00841.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/guava-jdk5-13.0-4bb18fd19c600b41fbd11bdded33a265bf0e0474.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.19.0/e3f11020c2c812112803d252d1392872d3f619c8/google-http-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/google-http-client-android-1.19.0-f70eb687a47d801b69ad4287330e339aee32d36e.jar" />
+    </item>
+    <item
+        jar="/Users/macbookpro/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/macbookpro/Desktop/glitch/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9-d4878495bc2f23a00a65621f4215658b0276cef8.jar" />
+    </item>
+
+</items>

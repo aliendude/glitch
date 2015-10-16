@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pedro.glitch.Fragments.SubscriptionsFragment"
+    android:padding="10dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="subscriptions"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal" />
+
+        <ListView android:id="@+id/markers_list_view" android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</FrameLayout>
+<!-- From: file:/Users/macbookpro/Desktop/glitch/app/src/main/res/layout/fragment_subscriptions_list.xml -->

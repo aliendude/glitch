@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/macbookpro/Desktop/glitch/app/src/main/res/values-sw600dp/refs.xml -->
+    <eat-comment/>
+    <item name="fragment_createdmarkers" type="layout">@layout/fragment_subscription_grid</item>
+</resources>
