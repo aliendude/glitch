@@ -1,10 +1,13 @@
 package com.example.pedro.myapplication.backend1.Model;
 
+import com.googlecode.objectify.Key;
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
 import com.googlecode.objectify.annotation.Index;
 
-import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
 
 /**
  * Created by mac on 23/08/15.
@@ -23,6 +26,10 @@ public class User {
     private String name;
 
     private String email;
+
+    List<Key<User>> following = new ArrayList<Key<User>>();
+
+    List<Key<Coverage>> subscribed_coverages = new ArrayList<Key<Coverage>>();
 
     public String getUsername() {
         return username;

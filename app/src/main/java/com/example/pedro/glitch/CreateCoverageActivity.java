@@ -16,7 +16,7 @@ public class CreateCoverageActivity extends ActionBarActivity implements CreateC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_coverage);
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.add(R.id.create_marker_content, new CreateCoverageFragment());
+        transaction.add(R.id.create_coverage_content, new CreateCoverageFragment());
         transaction.commit();
     }
 

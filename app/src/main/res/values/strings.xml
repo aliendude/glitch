@@ -38,4 +38,8 @@
     <string name="title_activity_create_marker">CreateMarkerActivity</string>
     <string name="title_activity_logged_user">Glitch</string>
     <string name="stream">Stream</string>
+    <string name="title_activity_create_stream">Stream</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

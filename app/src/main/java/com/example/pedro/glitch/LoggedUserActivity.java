@@ -178,11 +178,6 @@ public class LoggedUserActivity extends ActionBarActivity implements
         }
     }
 
-    public void onButtonCreateMarkerPressed(View v) {
-        Intent intent = new Intent(LoggedUserActivity.this, CreateCoverageActivity.class);
-        startActivity(intent);
-    }
-
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -229,7 +224,7 @@ public class LoggedUserActivity extends ActionBarActivity implements
             //startActivity(intent);
             return true;
         }else if (id==R.id.action_search){
-            Intent intent = new Intent(LoggedUserActivity.this, CreateCoverageActivity.class);
+            Intent intent = new Intent(LoggedUserActivity.this, CreateStreamActivity.class);
             startActivity(intent);
             //Log.e("pedro","stream button pressed");
         }

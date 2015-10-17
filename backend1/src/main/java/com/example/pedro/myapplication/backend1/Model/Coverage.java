@@ -1,77 +1,83 @@
 package com.example.pedro.myapplication.backend1.Model;
 
+import com.googlecode.objectify.Key;
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
 import com.googlecode.objectify.annotation.Index;
 
-import java.util.Date;
 /**
  * Created by pedro on 23/07/15.
  */
 @Entity
 public class Coverage {
 
-        @Id
-        private Long key;
+    @Id
+    private Long key;
 
-        private String name;
+    @Index
+    private String hashtag;
 
-        private String start;
+    @Index
+    Key<User> created_by;
 
-        private String end;
+    private String location;
 
-        private String location;
+    private String date_created;
 
-        private String nparticipants;
+    private int nviewers;
 
-        private String description;
+    private int nshared;
 
-        public String getName() {
-            return name;
-        }
+    private String description;
 
-        public void setName(String name) {
-            this.name = name;
-        }
 
-        public String getStart() {
-            return start;
-        }
+    public String getHashtag() {
+        return hashtag;
+    }
 
-        public void setStart(String start) {
-            this.start = start;
-        }
+    public void setHashtag(String hashtag) {
+        this.hashtag = hashtag;
+    }
 
-        public String getEnd() {
-            return end;
-        }
+    public String getDate_created() {
+        return date_created;
+    }
 
-        public void setEnd(String end) {
-            this.end = end;
-        }
+    public void setDate_created(String date_created) {
+        this.date_created = date_created;
+    }
 
-        public String getLocation() {
-            return location;
-        }
+    public String getLocation() {
+        return location;
+    }
 
-        public void setLocation(String location) {
-            this.location = location;
-        }
+    public void setLocation(String location) {
+        this.location = location;
+    }
 
-        public String getNparticipants() {
-            return nparticipants;
-        }
-    
-        public void setNparticipants(String nparticipants) {
-            this.nparticipants = nparticipants;
-        }
+    public int getNviewers() {
+        return nviewers;
+    }
 
-        public String getDescription() {
-            return description;
-        }
+    public void setNviewers(int nviewers) {
+        this.nviewers = nviewers;
+    }
 
-        public void setDescription(String description) {
-            this.description = description;
-        }
+    public int getNshared() {
+        return nshared;
+    }
+
+    public void setNshared(int nshared) {
+        this.nshared = nshared;
+    }
+
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
 }

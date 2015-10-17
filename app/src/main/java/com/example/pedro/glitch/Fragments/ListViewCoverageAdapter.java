@@ -64,7 +64,7 @@ public long getItemId(int arg0) {
         holder = (ViewHolder) convertView.getTag();
     }
 
-    holder.txtname.setText(listMarkers.get(position).getName());
+
     holder.txtphone.setText(listMarkers.get(position).getDescription());
 
     return convertView;

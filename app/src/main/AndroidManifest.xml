@@ -28,9 +28,9 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.pedro.glitch.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,16 +47,16 @@
             android:value="AIzaSyBd05n5I9RhwwYUUuwlmxUwLFmaQtTsAOc" />
 
         <activity
-            android:name="com.example.pedro.glitch.LoginActivity"
+            android:name=".LoginActivity"
             android:label="@string/title_activity_login" >
         </activity>
         <activity
-            android:name="com.example.pedro.glitch.SelectMapActivity"
+            android:name=".SelectMapActivity"
             android:label="@string/title_activity_select_map"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         </activity>
         <activity
-            android:name="com.example.pedro.glitch.UserRegistrationActivity"
+            android:name=".UserRegistrationActivity"
             android:label="@string/title_activity_user_registration" >
         </activity>
         <activity
@@ -65,8 +65,12 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         </activity>
         <activity
-            android:name="com.example.pedro.glitch.LoggedUserActivity"
+            android:name=".LoggedUserActivity"
             android:label="@string/title_activity_logged_user" >
+        </activity>
+        <activity
+            android:name=".CreateStreamActivity"
+            android:label="@string/title_activity_create_stream">
         </activity>
     </application>
 

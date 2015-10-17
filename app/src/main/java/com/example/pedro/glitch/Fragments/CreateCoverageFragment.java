@@ -45,7 +45,7 @@ public class CreateCoverageFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.fragment_create_map, container, false);
+        View view=inflater.inflate(R.layout.fragment_create_coverage, container, false);
         Button buttonSelectLocation = (Button)view.findViewById(R.id.buttonSelectLocation);
         buttonSelectLocation.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,29 +85,20 @@ public class CreateCoverageFragment extends Fragment {
     }
     public void onButtonCreateMapPressed(View v)
     {
-        EditText nameEt= (EditText)getActivity().findViewById(R.id.editText);
-        String name= nameEt.getText()+"";
-        EditText startTimeEt= (EditText)getActivity().findViewById(R.id.editText2);
-        String startTime=startTimeEt.getText()+"";
-        EditText endTimeEt= (EditText)getActivity().findViewById(R.id.editText3);
-        String endTime=endTimeEt.getText()+"";
+
         TextView labelLat=(TextView)getActivity().findViewById(R.id.labelLat);
         String latlng=labelLat.getText()+"";
         TextView labelLng=(TextView)getActivity().findViewById(R.id.labelLng);
         latlng+=" "+labelLng.getText();
-        EditText nOfParticipantsEt= (EditText)getActivity().findViewById(R.id.editText4);
-        String nOfParticipants=nOfParticipantsEt.getText()+"";
         EditText descEt= (EditText)getActivity().findViewById(R.id.editText5  );
         String desc=descEt.getText()+"";
 
         String[] strArr= new String[2];
         strArr[0]="createMapMarker";
         Coverage m = new Coverage();
-        m.setName(name);
-        m.setStart(startTime);
-        m.setEnd(endTime);
+
         m.setLocation(latlng);
-        m.setNparticipants(nOfParticipants);
+
         m.setDescription(desc);
         CoverageAsyncTask callbackend1 = new CoverageAsyncTask(getActivity());
         callbackend1.execute(new Pair<String[],Coverage>(strArr,m));

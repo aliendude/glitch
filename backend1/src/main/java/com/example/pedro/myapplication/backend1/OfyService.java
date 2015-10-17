@@ -2,6 +2,7 @@ package com.example.pedro.myapplication.backend1;
 
 
 import com.example.pedro.myapplication.backend1.Model.Coverage;
+import com.example.pedro.myapplication.backend1.Model.Stream;
 import com.example.pedro.myapplication.backend1.Model.User;
 import com.googlecode.objectify.Objectify;
 import com.googlecode.objectify.ObjectifyFactory;
@@ -16,6 +17,7 @@ public class OfyService {
     static {
         ObjectifyService.register(Coverage.class);
         ObjectifyService.register(User.class);
+        ObjectifyService.register(Stream.class);
     }
 
     public static Objectify ofy() {
