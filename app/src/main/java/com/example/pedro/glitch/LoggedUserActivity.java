@@ -146,7 +146,10 @@ public class LoggedUserActivity extends ActionBarActivity implements
     }
 
     public static class AppSectionsPagerAdapter extends FragmentPagerAdapter {
-
+        MapFragment1 mapFragment =  new MapFragment1();
+        SubscriptionsFragment subscriptionsFragment =new SubscriptionsFragment();
+        ChatFragment chatFragment = new ChatFragment();
+        SearchFragment searchFragment= new SearchFragment();
         public AppSectionsPagerAdapter(FragmentManager fm) {
             super(fm);
         }
@@ -157,13 +160,13 @@ public class LoggedUserActivity extends ActionBarActivity implements
                 case 0:
                     // The first section of the app is the most interesting -- it offers
                     // a launchpad into the other demonstrations in this example application.
-                    return new SubscriptionsFragment();
+                    return subscriptionsFragment;
                 case 1:
-                    return new MapFragment1();
+                    return mapFragment;
                 case 2:
-                    return new ChatFragment();
+                    return chatFragment;
                 default:
-                    return new SearchFragment();
+                    return searchFragment;
             }
         }
 
@@ -181,7 +184,6 @@ public class LoggedUserActivity extends ActionBarActivity implements
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-
 
     }
 
@@ -219,11 +221,12 @@ public class LoggedUserActivity extends ActionBarActivity implements
         int id = item.getItemId();
 
         if (id == R.id.log_out) {
-            // Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-            //intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
-            //startActivity(intent);
+            Intent intent = new Intent();
+            setResult(2, intent);
+            mAppSectionsPagerAdapter.mapFragment.destroy();
+            finish();
             return true;
-        }else if (id==R.id.action_search){
+        }else if (id==R.id.action_stream){
             Intent intent = new Intent(LoggedUserActivity.this, CreateStreamActivity.class);
             startActivity(intent);
             //Log.e("pedro","stream button pressed");

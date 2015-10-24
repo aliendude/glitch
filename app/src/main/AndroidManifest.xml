@@ -59,10 +59,14 @@
             android:name=".UserRegistrationActivity"
             android:label="@string/title_activity_user_registration" >
         </activity>
-        <activity
+     <!--   <activity
             android:name=".CreateCoverageActivity"
             android:label="@string/title_activity_create_marker"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>-->
+        <activity
+            android:name=".CreateCoverageActivity"
+            android:label="@string/title_activity_create_coverage" >
         </activity>
         <activity
             android:name=".LoggedUserActivity"

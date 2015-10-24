@@ -23,10 +23,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.pedro.glitch.Constants;
-import com.example.pedro.glitch.Globals;
 import com.example.pedro.glitch.Message;
 import com.example.pedro.glitch.MessageAdapter;
 import com.example.pedro.glitch.R;
+import com.example.pedro.glitch.SessionManager;
 import com.github.nkzawa.emitter.Emitter;
 import com.github.nkzawa.socketio.client.IO;
 import com.github.nkzawa.socketio.client.Socket;
@@ -95,7 +95,8 @@ public class ChatFragment extends Fragment {
 
         //startSignIn();
         // perform the chat user login attempt.
-        mUsername = Globals.loggedUser.getUsername();
+        SessionManager sessionManager = new SessionManager(getActivity().getApplicationContext());
+        mUsername = sessionManager.getUserDetails().get("name");
         mSocket.emit("add user", mUsername);
 
     }

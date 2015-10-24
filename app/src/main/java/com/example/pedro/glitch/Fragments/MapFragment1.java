@@ -20,8 +20,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.pedro.glitch.Constants;
-import com.example.pedro.glitch.Globals;
 import com.example.pedro.glitch.R;
+import com.example.pedro.glitch.SessionManager;
 import com.example.pedro.myapplication.backend1.coverages.Coverages;
 import com.example.pedro.myapplication.backend1.coverages.model.Coverage;
 import com.example.pedro.myapplication.backend1.coverages.model.CoverageCollection;
@@ -101,14 +101,18 @@ public class MapFragment1 extends Fragment{
         mSocket.on("user left", onUserLeft);
         mSocket.on("login", onLogin);
         mSocket.connect();
-        mUsername = Globals.loggedUser.getUsername();
+
+        SessionManager sessionManager = new SessionManager(getActivity().getApplicationContext());
+        mUsername = sessionManager.getUserDetails().get("name");
         getLocation();
         mSocket.emit("add user", mUsername,mLongitude+","+mLatitude);
     }
     @Override
     public void onDestroy() {
         super.onDestroy();
-
+      destroy();
+    }
+    public void destroy(){
         mSocket.disconnect();
         mSocket.off(Socket.EVENT_CONNECT_ERROR, onConnectError);
         mSocket.off(Socket.EVENT_CONNECT_TIMEOUT, onConnectError);
@@ -118,7 +122,6 @@ public class MapFragment1 extends Fragment{
         mSocket.off("user left", onUserLeft);
         mSocket.off("login", onLogin);
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

@@ -93,15 +93,14 @@ public class CreateCoverageFragment extends Fragment {
         EditText descEt= (EditText)getActivity().findViewById(R.id.editText5  );
         String desc=descEt.getText()+"";
 
-        String[] strArr= new String[2];
-        strArr[0]="createMapMarker";
+        String str="createCoverage";
         Coverage m = new Coverage();
 
         m.setLocation(latlng);
 
         m.setDescription(desc);
         CoverageAsyncTask callbackend1 = new CoverageAsyncTask(getActivity());
-        callbackend1.execute(new Pair<String[],Coverage>(strArr,m));
+        callbackend1.execute(new Pair<String,Coverage>(str,m));
         getActivity().finish();
     }
 

@@ -19,8 +19,8 @@ public class CoverageEndPoint {
     private static final Logger log = Logger.getLogger(CoverageEndPoint.class.getName());
 
     @ApiMethod(name = "addCoverage")
-    public void addCoverage( Coverage marker) {
-        ofy().save().entity(marker).now();
+    public void addCoverage( Coverage coverage) {
+        ofy().save().entity(coverage).now();
     }
     @SuppressWarnings({"cast", "unchecked"})
     @ApiMethod(name = "getCoverages")

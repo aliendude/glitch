@@ -21,7 +21,6 @@
     <string name="error_connect2">Failed to connect to the location server</string>
     <string name="message_welcome">Welcome</string>
     <!-- Strings related to login -->
-    <string name="prompt_username">What\'s your nickname?</string>
     <string name="action_sign_in">Join</string>
     <string name="action_sign_in_short">Join</string>
     <string name="message_user_joined">%s joined</string>
@@ -35,7 +34,7 @@
     </plurals>
     <string name="title_activity_select_map">SelectMapActivity</string>
     <string name="title_activity_user_registration">Register</string>
-    <string name="title_activity_create_marker">CreateMarkerActivity</string>
+    <string name="title_activity_create_coverage">Coverage</string>
     <string name="title_activity_logged_user">Glitch</string>
     <string name="stream">Stream</string>
     <string name="title_activity_create_stream">Stream</string>

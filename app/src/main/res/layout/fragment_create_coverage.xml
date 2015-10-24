@@ -12,7 +12,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="right|top"
             android:padding="20px"
             android:background="#ffffff">
@@ -86,21 +86,28 @@
                     android:paddingRight="15dp"
                     android:paddingBottom="15dp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:id="@+id/labelLat"
-                    android:enabled="true"
-                    android:editable="false" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:id="@+id/labelLng"
-                    android:enabled="true"
-                    android:editable="false" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/labelLat"
+                        android:enabled="true"
+                        android:editable="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/labelLng"
+                        android:enabled="true"
+                        android:editable="false" />
+                </LinearLayout>
+
             </LinearLayout>
 
             <Button

@@ -21,7 +21,7 @@ import java.util.logging.Logger;
 /**
  * Created by pedro on 23/07/15.
  */
-public class CoverageAsyncTask extends AsyncTask<Pair< String[], Coverage>, Void, String>{
+public class CoverageAsyncTask extends AsyncTask<Pair< String, Coverage>, Void, String>{
     private static Coverages coverageService = null;
     private GoogleCloudMessaging gcm;
     private Context context;
@@ -31,7 +31,7 @@ public class CoverageAsyncTask extends AsyncTask<Pair< String[], Coverage>, Void
     }
 
     @Override
-    protected String doInBackground(Pair<String[], Coverage>... params) {
+    protected String doInBackground(Pair<String, Coverage>... params) {
         if (coverageService == null) {
             Coverages.Builder builder = new Coverages.Builder(AndroidHttp.newCompatibleTransport(),
                     new AndroidJsonFactory(), null)
@@ -57,12 +57,12 @@ public class CoverageAsyncTask extends AsyncTask<Pair< String[], Coverage>, Void
             }
 
             msg = "Marker created";
-            String[] data = params[0].first;
-            Coverage markerToCreate = params[0].second;
+            String data = params[0].first;
+            Coverage coverage = params[0].second;
 
-            if (data[0]=="createCoverage")
+            if (data=="createCoverage")
             {
-                coverageService.addCoverage(markerToCreate).execute();
+                coverageService.addCoverage(coverage).execute();
             }
 
 
