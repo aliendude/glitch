@@ -19,6 +19,9 @@ import com.example.pedro.glitch.R;
 import com.example.pedro.glitch.SelectMapActivity;
 import com.example.pedro.myapplication.backend1.coverages.model.Coverage;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 
 public class CreateCoverageFragment extends Fragment {
 
@@ -53,11 +56,11 @@ public class CreateCoverageFragment extends Fragment {
                 onButtonSelectLocationPressed(v);
             }
         });
-        Button buttonCreateMap = (Button) view.findViewById(R.id.buttonCreateMap);
+        Button buttonCreateMap = (Button) view.findViewById(R.id.buttonCreateCoverage);
         buttonCreateMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
-                onButtonCreateMapPressed(v);
+                onButtonCreateCoveragePressed(v);
             }
         });
         // Inflate the layout for this fragment
@@ -83,7 +86,7 @@ public class CreateCoverageFragment extends Fragment {
         Intent intent = new Intent(getActivity(), SelectMapActivity.class);
         startActivityForResult(intent, 0);
     }
-    public void onButtonCreateMapPressed(View v)
+    public void onButtonCreateCoveragePressed(View v)
     {
 
         TextView labelLat=(TextView)getActivity().findViewById(R.id.labelLat);
@@ -92,12 +95,17 @@ public class CreateCoverageFragment extends Fragment {
         latlng+=" "+labelLng.getText();
         EditText descEt= (EditText)getActivity().findViewById(R.id.editText5  );
         String desc=descEt.getText()+"";
+        EditText hashTagEt= (EditText)getActivity().findViewById(R.id.hashTagEditText );
+        String hashTag=hashTagEt.getText()+"";
 
         String str="createCoverage";
         Coverage m = new Coverage();
 
         m.setLocation(latlng);
-
+        m.setDateCreated( new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
+        m.setNshared(0);
+        m.setNshared(0);
+        m.setHashtag(hashTag);
         m.setDescription(desc);
         CoverageAsyncTask callbackend1 = new CoverageAsyncTask(getActivity());
         callbackend1.execute(new Pair<String,Coverage>(str,m));

@@ -279,9 +279,14 @@ public class ChatFragment extends Fragment {
     }
 
     private void scrollToBottom() {
-        mMessagesView.scrollToPosition(mAdapter.getItemCount() - 1);
-    }
+        try {
+            mMessagesView.scrollToPosition(mAdapter.getItemCount() - 1);
 
+        }catch(Exception e)
+        {
+
+        }
+    }
     private Emitter.Listener onConnectError = new Emitter.Listener() {
         @Override
         public void call(Object... args) {

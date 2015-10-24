@@ -56,7 +56,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/editText"
+                    android:id="@+id/hashTagEditText"
                     android:layout_gravity="right" />
             </LinearLayout>
 
@@ -136,7 +136,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="Create"
-                android:id="@+id/buttonCreateMap" />
+                android:id="@+id/buttonCreateCoverage"
+                android:onClick="onButtonCreateCoveragePressed" />
         </LinearLayout>
     </ScrollView>
 

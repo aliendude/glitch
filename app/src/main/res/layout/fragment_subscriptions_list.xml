@@ -17,7 +17,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="subscriptions"
             android:id="@+id/textView10"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/california" />
 
         <ListView android:id="@+id/markers_list_view" android:layout_width="match_parent"
             android:layout_height="wrap_content" />

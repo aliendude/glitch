@@ -56,13 +56,14 @@ public class CoverageAsyncTask extends AsyncTask<Pair< String, Coverage>, Void, 
                 gcm = GoogleCloudMessaging.getInstance(context);
             }
 
-            msg = "Marker created";
+
             String data = params[0].first;
             Coverage coverage = params[0].second;
 
             if (data=="createCoverage")
             {
                 coverageService.addCoverage(coverage).execute();
+                msg = "Coverage created";
             }
 
 

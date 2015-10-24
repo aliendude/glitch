@@ -139,7 +139,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="Start"
-                android:id="@+id/buttonCreateMap"
+                android:id="@+id/buttonCreateCoverage"
                 android:textColor="@color/california" />
         </LinearLayout>
     </ScrollView>

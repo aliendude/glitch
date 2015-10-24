@@ -14,6 +14,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.pedro.glitch.Constants;
+import com.example.pedro.glitch.ListViewCoverageAdapter;
 import com.example.pedro.glitch.R;
 import com.example.pedro.myapplication.backend1.coverages.Coverages;
 import com.example.pedro.myapplication.backend1.coverages.model.Coverage;

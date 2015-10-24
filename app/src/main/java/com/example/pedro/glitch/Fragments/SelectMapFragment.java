@@ -117,10 +117,10 @@ public class SelectMapFragment extends Fragment {
             //Address location = (Address)address.get(0);
             //location.getLatitude();
             //location.getLongitude();
-
+            getLocation();
 
             CameraPosition cameraPosition = new CameraPosition.Builder()
-                    .target(new LatLng(38.858641, -104.918241)).zoom(16).build();
+                    .target(new LatLng(mLatitude, mLongitude)).zoom(16).build();
             googleMap.animateCamera(CameraUpdateFactory
                     .newCameraPosition(cameraPosition));
             // Setting a click event handler for the map
