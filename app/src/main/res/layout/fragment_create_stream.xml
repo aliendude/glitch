@@ -59,7 +59,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/editText6"
+                    android:id="@+id/coverageHashTagEditText"
                     android:layout_gravity="right" />
             </LinearLayout>
 
@@ -95,7 +95,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/editText"
+                    android:id="@+id/streamNameEditText"
                     android:layout_gravity="right" />
             </LinearLayout>
 
@@ -117,7 +117,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="time"
                     android:ems="10"
-                    android:id="@+id/editText3" />
+                    android:id="@+id/streamEndTimeEditText" />
             </LinearLayout>
 
             <TextView
@@ -131,7 +131,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText5"
+                android:id="@+id/streamDescriptionEditText"
                 android:layout_gravity="center_horizontal" />
 
             <Button
@@ -140,7 +140,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Start"
                 android:id="@+id/buttonCreateCoverage"
-                android:textColor="@color/california" />
+                android:textColor="@color/california"
+                android:onClick="onButtonStartStreamPressed" />
         </LinearLayout>
     </ScrollView>
 
