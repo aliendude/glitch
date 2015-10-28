@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -154,7 +155,8 @@ public class LoginActivity extends ActionBarActivity{
                 Toast.makeText(context, msg, Toast.LENGTH_LONG).show();
                 //Globals.loggedUser=usr;
                 SessionManager sessionManager = new SessionManager(getApplicationContext());
-                sessionManager.createLoginSession(usr.getName(),usr.getEmail(), usr.getUsername());
+                sessionManager.createLoginSession(usr.getName(), usr.getEmail(), usr.getUsername(), usr.getId().toString());
+               // Log.e("pedro",usr.getId().toString());
                 Intent intent = new Intent();
                 setResult(1, intent);
                 finish();

@@ -15,8 +15,10 @@ import java.util.List;
 @Entity
 public class User {
 
+
+
     @Id
-    private Long key;
+    private Long id;
 
     @Index
     private String username;
@@ -31,6 +33,13 @@ public class User {
 
     List<Key<Coverage>> subscribed_coverages = new ArrayList<Key<Coverage>>();
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
     public String getUsername() {
         return username;
     }

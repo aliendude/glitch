@@ -33,8 +33,11 @@ public class SessionManager {
     public static final String KEY_EMAIL = "email";
 
     public static final String KEY_USERNAME = "username";
+
+    public static final String KEY_ID = "id";
+
     // Constructor
-    public SessionManager(Context context){
+    public SessionManager(Context context) {
         this._context = context;
         pref = _context.getSharedPreferences(PREF_NAME, PRIVATE_MODE);
         editor = pref.edit();
@@ -42,8 +45,8 @@ public class SessionManager {
 
     /**
      * Create login session
-     * */
-    public void createLoginSession(String name, String email, String username){
+     */
+    public void createLoginSession(String name, String email, String username, String id) {
         // Storing login value as TRUE
         editor.putBoolean(IS_LOGIN, true);
 
@@ -53,6 +56,7 @@ public class SessionManager {
         // Storing email in pref
         editor.putString(KEY_EMAIL, email);
         editor.putString(KEY_USERNAME, username);
+        editor.putString(KEY_ID, id);
         // commit changes
         editor.commit();
     }
@@ -60,8 +64,8 @@ public class SessionManager {
 
     /**
      * Get stored session data
-     * */
-    public HashMap<String, String> getUserDetails(){
+     */
+    public HashMap<String, String> getUserDetails() {
         HashMap<String, String> user = new HashMap<String, String>();
         // user name
         user.put(KEY_NAME, pref.getString(KEY_NAME, null));
@@ -70,14 +74,15 @@ public class SessionManager {
         user.put(KEY_EMAIL, pref.getString(KEY_EMAIL, null));
 
         user.put(KEY_USERNAME, pref.getString(KEY_USERNAME, null));
+        user.put(KEY_ID, pref.getString(KEY_ID, null));
         // return user
         return user;
     }
 
     /**
      * Clear session details
-     * */
-    public void logoutUser(){
+     */
+    public void logoutUser() {
         // Clearing all data from Shared Preferences
         editor.clear();
         editor.commit();
@@ -96,9 +101,9 @@ public class SessionManager {
 
     /**
      * Quick check for login
-     * **/
+     **/
     // Get Login State
-    public boolean isLoggedIn(){
+    public boolean isLoggedIn() {
         return pref.getBoolean(IS_LOGIN, false);
     }
 }

@@ -4,6 +4,7 @@ import com.example.pedro.myapplication.backend1.Model.Coverage;
 import com.google.api.server.spi.config.Api;
 import com.google.api.server.spi.config.ApiMethod;
 import com.google.api.server.spi.config.ApiNamespace;
+import com.google.api.server.spi.config.Named;
 
 import java.util.List;
 import java.util.logging.Logger;
@@ -19,7 +20,8 @@ public class CoverageEndPoint {
     private static final Logger log = Logger.getLogger(CoverageEndPoint.class.getName());
 
     @ApiMethod(name = "addCoverage")
-    public void addCoverage( Coverage coverage) {
+    public void addCoverage(@Named("id") String id, Coverage coverage) {
+
         ofy().save().entity(coverage).now();
     }
     @SuppressWarnings({"cast", "unchecked"})

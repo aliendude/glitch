@@ -10,6 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83bb0a38-0085-4ece-aced-975169bdbc9d" name="Default" comment="Steam endpoint and AsyncTask added to the project">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/example/pedro/endogen/test/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/example/pedro/glitch/ApplicationTest.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Data/CoverageAsyncTask$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Data/CoverageAsyncTask.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/ListViewCoverageAdapter$ViewHolder.class" afterPath="" />
@@ -21,7 +23,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout-large/fragment_create_map.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout-normal/fragment_create_map.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/activity_create_marker.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Data/CoverageAsyncTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Data/CreateCoverageAsyncTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/ChatFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/ChatFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/ChatFragment$10$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/ChatFragment$10$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/ChatFragment$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/ChatFragment$10.class" />
@@ -41,6 +42,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/ChatFragment$9$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/ChatFragment$9$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/ChatFragment$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/ChatFragment$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/ChatFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/ChatFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/classes/endpointsSrc/com/example/pedro/myapplication/backend1/coverages/model/Coverage.class" afterPath="$PROJECT_DIR$/backend1/build/classes/endpointsSrc/com/example/pedro/myapplication/backend1/coverages/model/Coverage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/classes/main/com/example/pedro/myapplication/backend1/Model/Coverage.class" afterPath="$PROJECT_DIR$/backend1/build/classes/main/com/example/pedro/myapplication/backend1/Model/Coverage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/classes/main/com/example/pedro/myapplication/backend1/Apis/CoverageEndPoint.class" afterPath="$PROJECT_DIR$/backend1/build/classes/main/com/example/pedro/myapplication/backend1/Apis/CoverageEndPoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/classes/endpointsSrc/com/example/pedro/myapplication/backend1/coverages/Coverages$AddCoverage.class" afterPath="$PROJECT_DIR$/backend1/build/classes/endpointsSrc/com/example/pedro/myapplication/backend1/coverages/Coverages$AddCoverage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/classes/endpointsSrc/com/example/pedro/myapplication/backend1/coverages/Coverages$Builder.class" afterPath="$PROJECT_DIR$/backend1/build/classes/endpointsSrc/com/example/pedro/myapplication/backend1/coverages/Coverages$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/classes/endpointsSrc/com/example/pedro/myapplication/backend1/coverages/Coverages$GetCoverages.class" afterPath="$PROJECT_DIR$/backend1/build/classes/endpointsSrc/com/example/pedro/myapplication/backend1/coverages/Coverages$GetCoverages.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/classes/endpointsSrc/com/example/pedro/myapplication/backend1/coverages/Coverages.class" afterPath="$PROJECT_DIR$/backend1/build/classes/endpointsSrc/com/example/pedro/myapplication/backend1/coverages/Coverages.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/CreateCoverageActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/CreateCoverageActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/CreateCoverageFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/CreateCoverageFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/CreateCoverageFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/CreateCoverageFragment$2.class" />
@@ -48,6 +56,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/Java-WebSocket-1.3.0-0163e78e70d8849501a4c17a38d9e4f78cad6f31.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/Java-WebSocket-1.3.0-0163e78e70d8849501a4c17a38d9e4f78cad6f31.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/LoggedUserActivity$AppSectionsPagerAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/LoggedUserActivity$AppSectionsPagerAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/LoggedUserActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/LoggedUserActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/LoginActivity$LoginUserAsyncTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/LoginActivity$LoginUserAsyncTask$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/LoginActivity$LoginUserAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/LoginActivity$LoginUserAsyncTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/LoginActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/MainActivity.class" />
@@ -111,10 +120,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/SubscriptionsFragment$CoverageAsyncRetriever$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/SubscriptionsFragment$CoverageAsyncRetriever$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/SubscriptionsFragment$CoverageAsyncRetriever.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/SubscriptionsFragment$CoverageAsyncRetriever.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/SubscriptionsFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/Fragments/SubscriptionsFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/classes/endpointsSrc/com/example/pedro/myapplication/backend1/users/model/User.class" afterPath="$PROJECT_DIR$/backend1/build/classes/endpointsSrc/com/example/pedro/myapplication/backend1/users/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/classes/main/com/example/pedro/myapplication/backend1/Model/User.class" afterPath="$PROJECT_DIR$/backend1/build/classes/main/com/example/pedro/myapplication/backend1/Model/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/UserRegistrationActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pedro/glitch/UserRegistrationActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/backend1-android-endpoints-cd039582d22ea632b3a8cd149ba5e5d2638e1024.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/backend1-android-endpoints-cd039582d22ea632b3a8cd149ba5e5d2638e1024.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/libs/backend1-android-endpoints.jar" afterPath="$PROJECT_DIR$/backend1/build/libs/backend1-android-endpoints.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-0996cf4ab20933f29cee310466da341f984840e3.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-0996cf4ab20933f29cee310466da341f984840e3.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-06f07593850f14acbe993af27e32e7233e8b2888.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-06f07593850f14acbe993af27e32e7233e8b2888.jar" />
@@ -141,6 +153,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-fd3f1a36b8abe181ccecbd8394788e3165872533.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-fd3f1a36b8abe181ccecbd8394788e3165872533.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-fd884e209387b8b9ccaca3f8202f03eaa93186cd.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-fd884e209387b8b9ccaca3f8202f03eaa93186cd.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/client-libs/coverages-v1-java.zip" afterPath="$PROJECT_DIR$/backend1/build/client-libs/coverages-v1-java.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/drawer_shadow.9.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/drawer_shadow.9.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/engine.io-client-0.3.1-2493da066394585cd65e88236ca35f99b00267fe.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/engine.io-client-0.3.1-2493da066394585cd65e88236ca35f99b00267fe.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
@@ -155,13 +168,31 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-ffaf875a4e14dd945c6fcd2eec68b9eff9070dc5.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-ffaf875a4e14dd945c6fcd2eec68b9eff9070dc5.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3-d71e575c0d3e979f61da3cdab11040d4a857f85a.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3-d71e575c0d3e979f61da3cdab11040d4a857f85a.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9-d4878495bc2f23a00a65621f4215658b0276cef8.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9-d4878495bc2f23a00a65621f4215658b0276cef8.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/socket.io-client-0.3.0-34cc54e9e436f7b7f651fc8fe99d6890a96c5376.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/socket.io-client-0.3.0-34cc54e9e436f7b7f651fc8fe99d6890a96c5376.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-31e53aef9fe73d3c1406d4950ed76b166f511008.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-31e53aef9fe73d3c1406d4950ed76b166f511008.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/client-libs/users-v1-java.zip" afterPath="$PROJECT_DIR$/backend1/build/client-libs/users-v1-java.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/coverages/model/Coverage.java" afterPath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/coverages/model/Coverage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/coverages-v1-java.zip-unzipped/coverages/src/main/java/com/example/pedro/myapplication/backend1/coverages/model/Coverage.java" afterPath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/coverages-v1-java.zip-unzipped/coverages/src/main/java/com/example/pedro/myapplication/backend1/coverages/model/Coverage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Coverage.java" afterPath="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Coverage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/coverages/model/CoverageCollection.java" afterPath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/coverages/model/CoverageCollection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/coverages-v1-java.zip-unzipped/coverages/src/main/java/com/example/pedro/myapplication/backend1/coverages/model/CoverageCollection.java" afterPath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/coverages-v1-java.zip-unzipped/coverages/src/main/java/com/example/pedro/myapplication/backend1/coverages/model/CoverageCollection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Apis/CoverageEndPoint.java" afterPath="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Apis/CoverageEndPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/coverages/Coverages.java" afterPath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/coverages/Coverages.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/coverages-v1-java.zip-unzipped/coverages/src/main/java/com/example/pedro/myapplication/backend1/coverages/Coverages.java" afterPath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/coverages-v1-java.zip-unzipped/coverages/src/main/java/com/example/pedro/myapplication/backend1/coverages/Coverages.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/coverages/CoveragesRequest.java" afterPath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/coverages/CoveragesRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/coverages-v1-java.zip-unzipped/coverages/src/main/java/com/example/pedro/myapplication/backend1/coverages/CoveragesRequest.java" afterPath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/coverages-v1-java.zip-unzipped/coverages/src/main/java/com/example/pedro/myapplication/backend1/coverages/CoveragesRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/coverages/CoveragesRequestInitializer.java" afterPath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/coverages/CoveragesRequestInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/coverages-v1-java.zip-unzipped/coverages/src/main/java/com/example/pedro/myapplication/backend1/coverages/CoveragesRequestInitializer.java" afterPath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/coverages-v1-java.zip-unzipped/coverages/src/main/java/com/example/pedro/myapplication/backend1/coverages/CoveragesRequestInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/coverages/CoveragesScopes.java" afterPath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/coverages/CoveragesScopes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/coverages-v1-java.zip-unzipped/coverages/src/main/java/com/example/pedro/myapplication/backend1/coverages/CoveragesScopes.java" afterPath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/coverages-v1-java.zip-unzipped/coverages/src/main/java/com/example/pedro/myapplication/backend1/coverages/CoveragesScopes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Data/CreateCoverageAsyncTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Data/CreateCoverageAsyncTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/CreateCoverageFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/CreateCoverageFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/LoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/pedro/glitch/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/pedro/glitch/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/facebook/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/facebook/R.java" />
@@ -185,6 +216,20 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/wallet/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/wallet/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/wearable/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/wearable/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/SessionManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/SessionManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Stream.java" afterPath="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Stream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/users/model/User.java" afterPath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/users/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/users-v1-java.zip-unzipped/users/src/main/java/com/example/pedro/myapplication/backend1/users/model/User.java" afterPath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/users-v1-java.zip-unzipped/users/src/main/java/com/example/pedro/myapplication/backend1/users/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/User.java" afterPath="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/users/Users.java" afterPath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/users/Users.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/users-v1-java.zip-unzipped/users/src/main/java/com/example/pedro/myapplication/backend1/users/Users.java" afterPath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/users-v1-java.zip-unzipped/users/src/main/java/com/example/pedro/myapplication/backend1/users/Users.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/users/UsersRequest.java" afterPath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/users/UsersRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/users-v1-java.zip-unzipped/users/src/main/java/com/example/pedro/myapplication/backend1/users/UsersRequest.java" afterPath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/users-v1-java.zip-unzipped/users/src/main/java/com/example/pedro/myapplication/backend1/users/UsersRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/users/UsersRequestInitializer.java" afterPath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/users/UsersRequestInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/users-v1-java.zip-unzipped/users/src/main/java/com/example/pedro/myapplication/backend1/users/UsersRequestInitializer.java" afterPath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/users-v1-java.zip-unzipped/users/src/main/java/com/example/pedro/myapplication/backend1/users/UsersRequestInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/users/UsersScopes.java" afterPath="$PROJECT_DIR$/backend1/build/generated-source/endpoints/java/com/example/pedro/myapplication/backend1/users/UsersScopes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/users-v1-java.zip-unzipped/users/src/main/java/com/example/pedro/myapplication/backend1/users/UsersScopes.java" afterPath="$PROJECT_DIR$/backend1/build/tmp/appengineEndpointsExpandClientLibs/users-v1-java.zip-unzipped/users/src/main/java/com/example/pedro/myapplication/backend1/users/UsersScopes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/fragment_chat.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/fragment_chat.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/fragment_subscriptions_list.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/fragment_subscriptions_list.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
@@ -214,44 +259,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StreamAsyncTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Data/StreamAsyncTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateCoverageAsyncTask.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateCoverageAsyncTask.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Data/CreateCoverageAsyncTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.44690266">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoggedUserActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/LoggedUserActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapFragment1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/MapFragment1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.075221">
-              <caret line="462" column="79" selection-start-line="462" selection-start-column="79" selection-end-line="462" selection-end-column="79" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -260,30 +275,9 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/CreateCoverageFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateStreamActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/CreateStreamActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateStreamFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/CreateStreamFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+              <caret line="100" column="60" selection-start-line="100" selection-start-column="60" selection-end-line="100" selection-end-column="60" />
               <folding>
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -293,7 +287,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/SessionManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -303,7 +297,80 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="156" column="97" selection-start-line="156" selection-start-column="97" selection-end-line="156" selection-end-column="97" />
+              <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoverageEndPoint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Apis/CoverageEndPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Stream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserEndPoint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Apis/UserEndPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="94" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Coverage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Coverage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateStreamActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/CreateStreamActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -2708,11 +2775,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values-large/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-normal/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_chat.xml" />
-        <option value="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Coverage.java" />
         <option value="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/OfyService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/CreateStreamFragment.java" />
-        <option value="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Stream.java" />
-        <option value="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/User.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/ListViewCoverageAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/CreateCoverageActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_login.xml" />
@@ -2723,7 +2787,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_create_stream.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Apis/CoverageEndPoint.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_create_coverage.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/SelectMapFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Data/CoverageAsyncTask.java" />
@@ -2734,12 +2797,16 @@
         <option value="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Apis/StreamEndPoint.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Data/StreamAsyncTask.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_create_stream.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/SessionManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/CreateStreamActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Data/CreateCoverageAsyncTask.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/CreateCoverageFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/MapFragment1.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Data/CreateCoverageAsyncTask.java" />
+        <option value="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Coverage.java" />
+        <option value="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Stream.java" />
+        <option value="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/User.java" />
+        <option value="$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Apis/CoverageEndPoint.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/CreateCoverageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/SessionManager.java" />
       </list>
     </option>
   </component>
@@ -2866,28 +2933,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="glitch" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2963,16 +3008,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="glitch" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3273,7 +3308,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445999560878</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Coverage creation improvements">
+      <created>1446001514293</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1446001514293</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3358,7 +3399,8 @@
     <MESSAGE value="Stream and Coverage creation fragments and activities added" />
     <MESSAGE value="Steam endpoint and AsyncTask added to the project" />
     <MESSAGE value="Improvements in" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improvements in" />
+    <MESSAGE value="Coverage creation improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coverage creation improvements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3379,13 +3421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Apis/UserEndPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -3648,38 +3683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Coverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Apis/CoverageEndPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="e#850#851#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/CreateCoverageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3721,25 +3724,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/CreateStreamFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding>
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/SessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-21/android.jar!/android/os/Looper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.90816325">
@@ -3756,14 +3740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="156" column="97" selection-start-line="156" selection-start-column="97" selection-end-line="156" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Data/StreamAsyncTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3772,37 +3748,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Data/CreateCoverageAsyncTask.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/MapFragment1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="462" column="79" selection-start-line="462" selection-start-column="79" selection-end-line="462" selection-end-column="79" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/CreateCoverageFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/CreateStreamFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/CreateStreamActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+          <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/MapFragment1.java">
+    <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Apis/UserEndPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.075221">
-          <caret line="462" column="79" selection-start-line="462" selection-start-column="79" selection-end-line="462" selection-end-column="79" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="94" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="94" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Coverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend1/src/main/java/com/example/pedro/myapplication/backend1/Apis/CoverageEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/SessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Fragments/CreateCoverageFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="60" selection-start-line="100" selection-start-column="60" selection-end-line="100" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pedro/glitch/Data/CreateCoverageAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44690266">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

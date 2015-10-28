@@ -11,8 +11,10 @@ import com.googlecode.objectify.annotation.Index;
 @Entity
 public class Coverage {
 
+
+
     @Id
-    private Long key;
+    private Long id;
 
     @Index
     private String hashtag;
@@ -29,7 +31,13 @@ public class Coverage {
     private int nshared;
 
     private String description;
+    public Long getId() {
+        return id;
+    }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getHashtag() {
         return hashtag;

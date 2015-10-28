@@ -2,6 +2,7 @@ package com.example.pedro.glitch.Data;
 
 import android.content.Context;
 import android.os.AsyncTask;
+import android.util.Log;
 import android.util.Pair;
 import android.widget.Toast;
 
@@ -58,8 +59,9 @@ public class CreateCoverageAsyncTask extends AsyncTask<Pair<String, Coverage>, V
 
 
             String data = params[0].first;
+            Log.e("pedro",data);
             Coverage coverage = params[0].second;
-            coverageService.addCoverage(coverage).execute();
+            coverageService.addCoverage(data,coverage).execute();
             msg = "Coverage created";
 
 

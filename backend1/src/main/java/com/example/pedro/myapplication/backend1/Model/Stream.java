@@ -11,7 +11,7 @@ import com.googlecode.objectify.annotation.Index;
 @Entity
 public class Stream {
     @Id
-    private Long key;
+    private Long id;
     @Index
     Key<User> created_by;
     @Index

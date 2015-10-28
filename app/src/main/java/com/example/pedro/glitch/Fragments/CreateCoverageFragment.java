@@ -98,7 +98,7 @@ public class CreateCoverageFragment extends Fragment {
         EditText hashTagEt = (EditText) getActivity().findViewById(R.id.hashTagEditText);
         String hashTag = hashTagEt.getText() + "";
         SessionManager sessionManager = new SessionManager(getActivity().getApplicationContext());
-        String str = sessionManager.getUserDetails().get("username");
+        String str = sessionManager.getUserDetails().get("id");
         Coverage m = new Coverage();
 
         m.setLocation(latlng);
