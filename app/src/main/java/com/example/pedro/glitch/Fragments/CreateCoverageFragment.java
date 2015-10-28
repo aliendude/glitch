@@ -14,9 +14,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 
-import com.example.pedro.glitch.Data.CoverageAsyncTask;
+import com.example.pedro.glitch.Data.CreateCoverageAsyncTask;
 import com.example.pedro.glitch.R;
 import com.example.pedro.glitch.SelectMapActivity;
+import com.example.pedro.glitch.SessionManager;
 import com.example.pedro.myapplication.backend1.coverages.model.Coverage;
 
 import java.text.SimpleDateFormat;
@@ -88,27 +89,27 @@ public class CreateCoverageFragment extends Fragment {
     }
     public void onButtonCreateCoveragePressed(View v)
     {
-
-        TextView labelLat=(TextView)getActivity().findViewById(R.id.labelLat);
-        String latlng=labelLat.getText()+"";
-        TextView labelLng=(TextView)getActivity().findViewById(R.id.labelLng);
-        latlng+=" "+labelLng.getText();
-        EditText descEt= (EditText)getActivity().findViewById(R.id.editText5  );
-        String desc=descEt.getText()+"";
-        EditText hashTagEt= (EditText)getActivity().findViewById(R.id.hashTagEditText );
-        String hashTag=hashTagEt.getText()+"";
-
-        String str="createCoverage";
+        TextView labelLat = (TextView) getActivity().findViewById(R.id.labelLat);
+        String latlng = labelLat.getText() + "";
+        TextView labelLng = (TextView) getActivity().findViewById(R.id.labelLng);
+        latlng += " " + labelLng.getText();
+        EditText descEt = (EditText) getActivity().findViewById(R.id.editText5);
+        String desc = descEt.getText() + "";
+        EditText hashTagEt = (EditText) getActivity().findViewById(R.id.hashTagEditText);
+        String hashTag = hashTagEt.getText() + "";
+        SessionManager sessionManager = new SessionManager(getActivity().getApplicationContext());
+        String str = sessionManager.getUserDetails().get("username");
         Coverage m = new Coverage();
 
         m.setLocation(latlng);
-        m.setDateCreated( new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
+        m.setDateCreated(new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
         m.setNshared(0);
         m.setNshared(0);
         m.setHashtag(hashTag);
         m.setDescription(desc);
-        CoverageAsyncTask callbackend1 = new CoverageAsyncTask(getActivity());
-        callbackend1.execute(new Pair<String,Coverage>(str,m));
+        // m.setCreator(Globals.getLoggedUser());
+        CreateCoverageAsyncTask callbackend1 = new CreateCoverageAsyncTask(getActivity());
+        callbackend1.execute(new Pair<String, Coverage>(str, m));
         getActivity().finish();
     }
 

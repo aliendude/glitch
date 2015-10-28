@@ -19,14 +19,14 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * Created by pedro on 23/07/15.
+ * Created by pedro on 10/25/15.
  */
-public class CoverageAsyncTask extends AsyncTask<Pair< String, Coverage>, Void, String>{
-    private static Coverages coverageService = null;
+public class CreateCoverageAsyncTask extends AsyncTask<Pair<String, Coverage>, Void, String> {
+    private Coverages coverageService = null;
     private GoogleCloudMessaging gcm;
     private Context context;
 
-    public CoverageAsyncTask(Context context) {
+    public CreateCoverageAsyncTask(Context context) {
         this.context = context;
     }
 
@@ -59,12 +59,8 @@ public class CoverageAsyncTask extends AsyncTask<Pair< String, Coverage>, Void, 
 
             String data = params[0].first;
             Coverage coverage = params[0].second;
-
-            if (data=="createCoverage")
-            {
-                coverageService.addCoverage(coverage).execute();
-                msg = "Coverage created";
-            }
+            coverageService.addCoverage(coverage).execute();
+            msg = "Coverage created";
 
 
         } catch (IOException ex) {
